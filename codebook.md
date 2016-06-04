@@ -17,19 +17,19 @@ The following files are available for the train and test data. Their description
 
 ### Variable Descriptions
 
-`activityTest`  = "test/Y_test.txt"
-`activityTrain` = "train/Y_train.txt"
-`subjectTest`  = "test/subject_test.txt"
-`subjectTrain` = "train/subject_train.txt"
-`featuresTest`  = "test/X_test.txt"
-`featuresTrain` = "train/X_train.txt"
-`activityLabels` = "activity_labels.txt"
-`featuresNames` = "features.txt"
-`subject` row binds `subjectTrain` & `subjectTest`
-`activity` row binds `activityTrain` & `activityTest`
-`features` row binds `featuresTrain` & `featuresTest`
-`answer1` is the merged training and tests sets into one dataset.
-`answer2` is the same dataset but with only the mean and SD columns extracted.
-`answer3` has had the activity column updated with descriptive activity names.
-`answer4` has had the variable names updated to be more descriptive (eg "f" changed to "frequency")
-`answer5` is the completed tidy dataset with the average of each variable for each activity and subject.
+- `activityTest`  = "test/Y_test.txt"
+- `activityTrain` = "train/Y_train.txt"
+- `subjectTest`  = "test/subject_test.txt"
+- `subjectTrain` = "train/subject_train.txt"
+- `featuresTest`  = "test/X_test.txt"
+- `featuresTrain` = "train/X_train.txt"
+- `activityLabels` = "activity_labels.txt"
+- `featuresNames` = "features.txt"
+- `subject` row binds `subjectTrain` & `subjectTest`
+- `activity` row binds `activityTrain` & `activityTest`
+- `features` row binds `featuresTrain` & `featuresTest`
+- `answer1` is the merged training and tests sets into one dataset.
+- `answer2` is the same dataset but with only the mean and SD columns extracted.
+- `answer3` has had the activity column updated with descriptive activity names.
+- `answer4` has had the variable names updated to be more descriptive (eg "f" changed to "frequency")
+- `answer5` is the completed tidy dataset with the average of each variable for each activity and subject.
